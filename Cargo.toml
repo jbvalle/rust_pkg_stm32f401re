@@ -5,6 +5,7 @@ edition = "2024"
 authors = ["John Bryan Valle <jbvalle.jv@gmail.com>"]
 description = "Peripherals package for stm32f401re"
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/jbvalle/rust_pkg_stm32f401re"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
