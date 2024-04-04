@@ -1,0 +1,11 @@
+[package]
+name = "stm32f401re"
+version = "0.1.0"
+edition = "2024"
+authors = ["John Bryan Valle <jbvalle.jv@gmail.com>"]
+description = "Peripherals package for stm32f401re"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
