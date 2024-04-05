@@ -43,7 +43,7 @@ pub struct GpioxT {
 }
 
 impl GpioxT {
-    fn set_mode(&mut self, mode: GpioMode, pin: GpioPin) {
+    pub fn set_mode(&mut self, mode: GpioMode, pin: GpioPin) {
 
         let _pin = pin as u8;
 
