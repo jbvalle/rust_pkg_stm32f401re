@@ -2,7 +2,7 @@ cargo-features = ["edition2024"]
 
 [package]
 name = "kyrax-stm32f401re"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 authors = ["John Bryan Valle <jbvalle.jv@gmail.com>"]
 description = "Peripherals package for stm32f401re"
