@@ -30,21 +30,21 @@ impl GpioxT {
 
         let _pin = pin as u8;
 
-        self.moder ^= 1 << (2 * (_pin as u8));
+        self.odr ^= 1 << (_pin as u8);
     }
 
     pub fn set_pin(&mut self, pin: GpioPin){
 
         let _pin = pin as u8;
 
-        self.moder |= 1 << (2 * (_pin as u8));
+        self.odr |= 1 << (_pin as u8);
     }
 
     pub fn reset_pin(&mut self, pin: GpioPin){
 
         let _pin = pin as u8;
 
-        self.moder &= !(1 << (2 * (_pin as u8)));
+        self.odr &= !(1 << (_pin as u8));
     }
 }
 
