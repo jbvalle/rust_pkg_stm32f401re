@@ -2,7 +2,7 @@ cargo-features = ["edition2024"]
 
 [package]
 name = "stm32f401re"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 authors = ["John Bryan Valle <jbvalle.jv@gmail.com>"]
 description = "Peripherals package for stm32f401re"
